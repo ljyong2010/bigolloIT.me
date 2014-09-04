@@ -1,4 +1,4 @@
-baseurl: /bigolloIT
+baseurl: /bigolloIT.me
 markdown: redcarpet
 safe: false
 pygments: true
