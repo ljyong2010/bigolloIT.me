@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 首页
+title: 我的Blog
 ---
 
-
+<h2>{{ page.title }}</h2>
+<p>最新文章</p>
 <ul class="post-list">
     {% for post in site.posts %}
-        <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a><br>
-        {{ post.date | date: "%F" }}<br>
+        <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a></li>
     {% endfor %}
 </ul>
