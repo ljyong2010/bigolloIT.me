@@ -3,7 +3,7 @@ layout: default
 title: 编译hadoop2.2在linux64位上使用
 category: 技术文档
 comments: true
-----
+---
 
 
 1） Install developer tools and dependencies:
