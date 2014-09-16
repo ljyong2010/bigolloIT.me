@@ -1,4 +1,4 @@
 baseurl: /bigolloIT.me
-markdown: redcarpet
+markdown: rdiscount
 safe: false
 pygments: true
