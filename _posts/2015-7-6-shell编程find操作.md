@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 编译hadoop2.2在linux64位上使用
+title: shell学习之 find用法
 category: 技术文档
 comments: true
 ---
