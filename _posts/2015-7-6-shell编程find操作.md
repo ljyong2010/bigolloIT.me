@@ -1,3 +1,10 @@
+---
+layout: default
+title: 编译hadoop2.2在linux64位上使用
+category: 技术文档
+comments: true
+---
+
 **shell学习之 find用法**
 
  
@@ -10,7 +17,7 @@
 base_path可以是任何位置(/home/bigollo),find会从给位置开始向下查找。
  例如：
  $find . -print
- #打印文件和目录的列表
+ 打印文件和目录的列表
  . 指定当前目录，..指定父目录。这是UNIX文件系统中的约定用法。
  -print 指明打印出匹配文件的文件名(路径)。当使用-print时，'\n'作为用于分隔文件的定界符。
  -print0 指明使用'\0'作为定界符来打印每一个匹配的文件名。当文件名中包含换行符时，这个方法就有用武之地了。
